@@ -15,7 +15,7 @@ For the full story about the many ways that developers can capture and beautify 
 
 ### Manually Capturing Screenshots
 
-Manually taking screenshots takes too much time, which also decreases the quality of the screenshots. Since it is not automated, the screenshots will show slightly different content on the various devices and languages. Many companies choose to create screenshots in one language and use them for all languages. While this might seem okay to us developers, there are many potential users out there that cannot read the text on your app screenshots if they are not localised. Have you ever looked at a screenshots with content in a language you don't know? It won't convince you to download the app.
+Manually taking screenshots takes too much time, which also decreases the quality of the screenshots. Since it is not automated, the screenshots will show slightly different content on the various devices and languages. Many companies choose to create screenshots in one language and use them for all languages. While this might seem okay to us developers, there are many potential users out there that cannot read the text on your app screenshots if they are not localised. Have you ever looked at a screenshot with content in a language you don't know? It won't convince you to download the app.
 
 However, the biggest disadvantage of this method is what happens when you need to repeat the process. If you notice a spelling mistake in the screenshots, if you release an update with a new design, or if you just want to show more up to date content, you'll have to create new screenshots for all languages and devices... manually.
 
@@ -139,7 +139,7 @@ fastlane snapshot                               # Generate screenshots for the s
 
 After generating your screenshots using `fastlane snapshot`, you usually want to upload them to iTunes Connect.
 
-If you followed the setup guide, you already ran `fastlane init` before, so you should have your existing screenshots and metadata inside the `fastlane/screenshots` and `fastlane/metadata` directory. Running `fastlane snapshot` will store the screenshots in the `fastlane/screenshots` directory by default. 
+If you followed the setup guide, you already ran `fastlane init` before, so you should have your existing screenshots and metadata inside the `fastlane/screenshots` and `fastlane/metadata` directory. Running `fastlane snapshot` will store the screenshots in the `fastlane/screenshots` directory by default.
 
 To upload the screenshots stored in `fastlane/screenshots`, just run
 
@@ -147,7 +147,7 @@ To upload the screenshots stored in `fastlane/screenshots`, just run
 fastlane deliver
 ```
 
-This will also show you a metadata summary, before actually uploading the screenshots, as this will overwrite the metadata and screenshots you already have on iTunes Connect. 
+This will also show you a metadata summary, before actually uploading the screenshots, as this will overwrite the metadata and screenshots you already have on iTunes Connect.
 
 # Use in Fastfile
 
@@ -258,7 +258,7 @@ fastlane action frameit
 
 # Advanced _snapshot_
 
-<details> 
+<details>
 <summary>Sample uses</summary>
 
 ```ruby
